@@ -1,3 +1,9 @@
+/*
+color codes: 023e8a blue
+4361ee
+
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +16,95 @@ html, body {
 }
 
 body {
-    background-color: blue;
+    background-color: #ade8f4;
     /* background-size: cover;
     background-position: top center; */
 }
+
+nav {
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+    background-color: white;
+}
+
+nav .menu{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo img {
+    width: 300px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover{
+    color: blue;
+}
+
+.NavBtn button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: #023e8a;
+    color: white;
+    background-color: #023e8a;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.NavBtn button:hover{
+    opacity: 0.9;
+    /* width: */
+}
+
+.wraper {
+    height: 100%;
+}
+
+.container {
+    width: 1200px;
+    height: 85%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.inner-div {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    width: 54%;
+}
+
+.center .title {
+    color: black;
+    font-size: 70px;
+    font-weight: 50;
+    margin: 11px 0 25px 0;
+}
+
+/* Responsive Media */
